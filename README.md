@@ -38,6 +38,12 @@ The following features are targeted for validation in this topology:
 - **Segment Routing**
 - **Streaming Telemetry (gRPC and gNMI)**
 
+Introduction of Paragon 2.4 as an SDN controller to satisfy the following use cases. 
+
+      1. Observability
+      2. Network Optimization
+      3. SLA Platform. 
+
 ---
 
 ## Topology Diagram
