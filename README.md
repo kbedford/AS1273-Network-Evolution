@@ -3,7 +3,9 @@
 ## Overview
 
 AS1273 is a global transit network designed with an iBGP mesh architecture.  
+
 Currently, the network operates without hierarchy, employing a flat structure that has proven effective over time. The design leverages:
+
 - **IS-IS** as the IGP
 - **iBGP Mesh**
 - **MPLS LSPs**, carrying traffic between nodes, where every node acts as a PE due to the geographically dispersed nature of the network.
@@ -22,13 +24,10 @@ The following features are targeted for validation in this topology:
 - **BGP Optimal Route Reflection (ORR)**
 - **IS-IS**
 - **MPLS**
-- **Inline J-Flow (IPv4/IPv6/MPLS Template)**
-- **Inline J-Flow v9 (IPv4/IPv6/MPLS Template)**
 - **Interface Group Tag Using Firewall**
 - **NetFlow**
 - **PCEP**
 - **RIB Group**
-- **RPM Probes**
 - **RSVP-TE**
   - **RSVP-TE ERO**
   - **RSVP-TE FRR (Node-Link Protection)**
@@ -42,6 +41,7 @@ The following features are targeted for validation in this topology:
 ---
 
 ## Topology Diagram
+
 The topology diagram below provides a visual reference for replicating the Junos-Evo network setup:
 
 ![image](https://github.com/user-attachments/assets/56ee9cc0-3980-4d1a-9602-707690dbe156)
@@ -50,6 +50,7 @@ The topology diagram below provides a visual reference for replicating the Junos
 ---
 
 ## Platforms Used
+
 - **Current Setup**: MX960, MX480, PTX5K
 - **New Addition**: PTX10K (Junos-Evo)
 
